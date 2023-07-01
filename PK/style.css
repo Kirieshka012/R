@@ -1,0 +1,542 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Pavanam', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+
+    flex: 1 0 auto;
+
+}
+
+#header {
+    width: 100%;
+    min-height: 110px;
+    background-color: #3F0C0C;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    min-height: 110px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 75px;
+}
+
+.logo__home {
+    text-decoration: none;
+    color: #fff;
+    transition: color .3s;
+}
+
+.logo__home:hover {
+    color: #9a9a9a;
+}
+
+.header__links {
+    margin-top: 15px;
+    margin-right: 330px;
+}
+
+.linkheader {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Peddana', serif;
+    margin: 0 15px;
+    transition: color .3s;
+}
+
+.linkheader:hover {
+    color: #a9a9a9;
+}
+
+/* Intro */
+
+.intro {
+    width: 100%;
+    min-height: 500px;
+    background: url("../img/intro/car-image.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.link__intro {
+    position: absolute;
+    left: 65%;
+    top: 80%;
+    z-index: 1;
+}
+
+.link__intro a {
+    width: 449px;
+    height: 66px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid fff;
+    transition: color, background-color .3s;
+}
+
+.link__intro a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.color-intro {
+    width: 100%;
+    min-height: 60px;
+    background-color: #3F0C0C;
+}
+
+/* Section */
+
+.section {
+    padding: 80px 0;
+}
+
+.section__title {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Philosopher';
+}
+
+/* Arenda */
+
+.arenda__content {
+    width: 100%;
+    background-color: #3F0C0C;
+    min-height: 500px;
+    position: relative;
+}
+
+.img__arenda {
+    width: 593px;
+    height: 641px;
+    position: absolute;
+    top: -10%;
+}
+
+.text__arenda {
+    margin-left: 600px;
+    padding: 50px 10px;
+    font-size: 20px;
+}
+
+.text__arenda li {
+    margin: 30px 0;
+}
+
+.color-arenda {
+    width: 100%;
+    min-height: 60px;
+    background-color: #3F0C0C;
+    margin-top: 150px;
+}
+
+/* Novinki */
+
+.items {
+    width: 100%;
+    min-height: 400px;
+    background-color: #3F0C0C;
+}
+
+.items_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    min-height: 400px;
+}
+
+.text__img {
+    width: 350px;
+    height: 28px;
+    text-align: center;
+    border: 1px solid #fff;
+    font-size: 20px;
+}
+
+.link__novinki {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.novinki__img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.link__a {
+    width: 200px;
+    border: 1px solid #999;
+    font-size: 40px;
+    font-family: 'Peddana';
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+
+.link__a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.clients__img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.map {
+    text-align: center;
+}
+
+.contacts {
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+/* Footer */
+
+#footer {
+    width: 100%;
+    min-height: 300px;
+    background-color: #3F0C0C;
+    flex-shrink: 0;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+
+.footer__item {
+    width: 25%;
+}
+
+.text__suplogo {
+    font-family: 'Peddana';
+    font-size: 30px;
+}
+
+.text__footer {
+
+    font-family: 'Peddana';
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.socials__block {
+    text-align: center;
+}
+
+.footer__item--otstup {
+    margin-top: 20px;
+}
+
+/* Authopark */
+
+.linkheader.active {
+    color: #a9a9a9;
+}
+
+.title__intro {
+    margin: 30px 0;
+    text-align: center;
+    font-family: 'Philosopher';
+    font-size: 70px;
+}
+
+.title__class {
+    width: 100%;
+    min-height: 110px;
+    background-color: #3F0C0C;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Peddana';
+    margin: 100px 0;
+}
+
+/* Premium */
+
+.premium_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.premium_item {
+    border: 1px solid #fff;
+    display: block;
+}
+
+.text__nadimg {
+    text-align: center;
+    font-size: 25px;
+}
+
+.img__premium {
+
+    width: 350px;
+    height: 300px;
+
+}
+
+/* Podderzhka */
+
+.support {
+    margin: 60px;
+    min-height: 400px;
+}
+
+.support__title {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Philosopher';
+}
+
+.support__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.form__block {
+    width: 647px;
+    height: 570px;
+    background-color: #3F0C0C;
+    padding: 30px;
+}
+
+.form {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form__t {
+
+    width: 150px;
+    height: 30px;
+    background-color: #3F0C0C;
+    border: 1px solid #fff;
+    margin: 10px 0;
+}
+
+.button__form {
+    width: 200px;
+    height: 39px;
+    background-color: #3F0C0C;
+    border: 1px solid #fff;
+    color: #fff;
+    align-self: center;
+    cursor: pointer;
+}
+
+.button__form:hover {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.comment__form {
+    width: 306px;
+    height: 223px;
+    margin-bottom: 10px;
+    background-color: #3F0C0C;
+    border: 1px solid #fff;
+}
+
+.img__block {
+    display: block;
+    width: 647px;
+    height: 570px;
+}
+
+.img__block img {
+    width: 700px;
+    height: 570px;
+}
+
+/* Contacts */
+
+.contacts-1 {
+    margin: 60px;
+    min-height: 400px;
+}
+
+.contacts__title {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Philosopher';
+}
+
+.contacts__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.info__block {
+    width: 630px;
+    height: 420px;
+    background-color: #3F0C0C;
+    padding: 40px;
+}
+
+.info__item span {
+    font-family: 'Peddana';
+    font-size: 20px;
+}
+
+.ooo p {
+    font-family: 'Philosopher';
+    font-size: 20px;
+}
+
+.info__socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__social {
+
+    font-family: 'Peddana';
+    font-size: 20px;
+    text-align: center;
+}
+
+.socials__item__info {
+    text-align: center;
+}
+
+/* Comment */
+
+.comment {
+    margin: 60px;
+    min-height: 400px;
+}
+
+.comment__title {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Philosopher';
+}
+
+.comment__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.comment__block {
+    width: 630px;
+    height: 460px;
+    background-color: #3F0C0C;
+    padding: 30px;
+    margin: 0 30px;
+}
+
+.comment__suptitle {
+
+    text-align: center;
+    font-family: 'Peddana';
+    font-size: 40px;
+
+}
+
+.commentalka {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Peddana';
+}
+
+.comentalka__input {
+    background-color: #3F0C0C;
+    width: 306px;
+    height: 30px;
+    border: 1px solid #fff;
+}
+
+.comentalka__otzyv {
+    background-color: #3F0C0C;
+    width: 500px;
+    height: 180px;
+    border: 1px solid #fff;
+}
+
+.comentalka__btn {
+    position: relative;
+    margin-top: 15px;
+    width: 200px;
+    height: 40px;
+    left: 150px;
+    background-color: #3F0C0C;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: color, background-color, .3s;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.comentalka__btn:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.text__comment {
+    font-size: 18px;
+    font-family: 'Peddana';
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.text__comment span {
+    font-size: 10px;
+}
+
+.text__comment p {
+    font-size: 15px;
+    margin: 0;
+}
+input {
+    color: #fff;
+    }
